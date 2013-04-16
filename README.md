@@ -1,1 +1,1 @@
-Bash Configuration files
+VIM Configuration files
