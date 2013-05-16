@@ -81,3 +81,10 @@ set virtualedit=block " Freely move with visual block edit mode
 set wildmode=longest,list " Bash completion
 
 colorscheme ir_black_custom
+
+if filereadable("/home/julio/Repos/powerline/powerline/bindings/vim/plugin/powerline.vim") && &t_Co == 256
+  " Enable Powerline
+  set rtp+=/home/julio/Repos/powerline/powerline/bindings/vim
+  set laststatus=2 " Always display the statusline in all windows
+  set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+endif
