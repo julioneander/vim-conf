@@ -13,8 +13,7 @@
 "  number: #FF73FD  255:115:253                 
 "  comments: #7C7C7C  124:124:124
 "  keywords: #96CBFE  150:203:254             
-"  operators: white
-"  class: #FFFFB6  255:255:182
+"  operators: white "  class: #FFFFB6  255:255:182
 "  method declaration name: #FFD2A7  255:210:167
 "  regular expression: #E9C062  233:192:98
 "    regexp alternate: #FF8000  255:128:0
@@ -125,7 +124,7 @@ if has("gui_running") || &t_Co == 256
 
   hi Special          guifg=#E18964     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
   hi Delimiter        guifg=#00A0A0     guibg=NONE        gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
-  hi Operator         guifg=white       guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
+  hi Operator        guifg=#6699CC     guibg=NONE        gui=NONE      ctermfg=lightblue   ctermbg=NONE        cterm=NONE
 
   hi link Character       Constant
   hi link Boolean         Constant
@@ -206,7 +205,7 @@ if has("gui_running") || &t_Co == 256
 
 
   " Special for Python
-  "hi  link pythonEscape         Keyword      
+  hi  link pythonEscape         Keyword      
 
 
   " Special for CSharp
