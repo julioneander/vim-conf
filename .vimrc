@@ -63,6 +63,12 @@ set showcmd
 set formatoptions=tcqor
 set whichwrap=b,s,<,>,[,]
 set backspace=indent,eol,start
+set ttyfast
+set lazyredraw
+
+" VI compatible options
+set cpoptions+=$
+
 syntax on
 
 " Custom mappings
