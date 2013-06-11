@@ -70,6 +70,7 @@ set lazyredraw
 set cpoptions+=$
 
 syntax on
+set synmaxcol=0
 
 " Custom mappings
 map <ESC><F2> :NERDTree<CR>
