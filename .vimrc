@@ -11,9 +11,12 @@ set shiftwidth=2
 " Auto expand tabs to spaces
 set expandtab
 
-" Auto indent after a {
-set autoindent
-set smartindent
+" Auto indentation
+set cindent
+" Closing parentheses back to normal level
+set cinoptions=(1s,m1
+" Javascript objects are not labels
+set cinoptions+=J1
 
 " Linewidth to endless
 set textwidth=0
@@ -67,7 +70,7 @@ set ttyfast
 set lazyredraw
 
 " VI compatible options
-set cpoptions+=$
+"set cpoptions+=$
 
 syntax on
 set synmaxcol=0
