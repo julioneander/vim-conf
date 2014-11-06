@@ -94,7 +94,7 @@ colorscheme ir_black_custom
 
 set laststatus=2 " Always display the statusline in all windows
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
-let g:airline_theme = 'simple'
+let g:airline_theme = 'serene'
 let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
